@@ -1,0 +1,67 @@
+PATH
+  remote: .
+  specs:
+    master_of_all_science (0.0.1)
+      faraday (~> 0.15)
+      json (~> 2.2)
+      word_wrap (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    byebug (11.0.1)
+    coderay (1.1.2)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    diff-lcs (1.3)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
+    hashdiff (0.3.8)
+    json (2.2.0)
+    method_source (0.9.2)
+    multipart-post (2.0.0)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.7.0)
+      byebug (~> 11.0)
+      pry (~> 0.10)
+    public_suffix (3.0.3)
+    rake (10.5.0)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
+    safe_yaml (1.0.5)
+    vcr (4.0.0)
+    webmock (3.5.1)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+    word_wrap (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  master_of_all_science!
+  pry-byebug (~> 3.7)
+  rake (~> 10.0)
+  rspec (~> 3.8)
+  vcr (~> 4.0)
+  webmock (~> 3.5)
+
+BUNDLED WITH
+   1.17.1
