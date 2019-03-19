@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://masterofallscience.com/api/search?q=All%20right,%20all%20right,%20cool%20it!
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Mar 2019 23:41:19 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2b43396933300c2fcf5d91fa243eaa931552952478; expires=Tue, 17-Mar-20
+        23:41:18 GMT; path=/; domain=.masterofallscience.com; HttpOnly; Secure
+      Cache-Control:
+      - no-transform,public,max-age=300,s-maxage=300
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4b9b0e7f5c869979-LAX
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"Id":68145,"Episode":"S02E01","Timestamp":427010},{"Id":68146,"Episode":"S02E01","Timestamp":427218},{"Id":68151,"Episode":"S02E01","Timestamp":428470},{"Id":68147,"Episode":"S02E01","Timestamp":427427},{"Id":68149,"Episode":"S02E01","Timestamp":428053},{"Id":68150,"Episode":"S02E01","Timestamp":428261},{"Id":68148,"Episode":"S02E01","Timestamp":427844},{"Id":144511,"Episode":"S03E03","Timestamp":654737},{"Id":72571,"Episode":"S02E02","Timestamp":17643},{"Id":144512,"Episode":"S03E03","Timestamp":654946},{"Id":63914,"Episode":"S01E11","Timestamp":844302},{"Id":102857,"Episode":"S02E06","Timestamp":1167124},{"Id":85680,"Episode":"S02E04","Timestamp":136928},{"Id":177706,"Episode":"S03E08","Timestamp":823656},{"Id":177711,"Episode":"S03E08","Timestamp":824490},{"Id":92643,"Episode":"S02E05","Timestamp":335252},{"Id":135086,"Episode":"S03E02","Timestamp":27653},{"Id":138694,"Episode":"S03E02","Timestamp":784867},{"Id":118913,"Episode":"S02E09","Timestamp":625542},{"Id":47582,"Episode":"S01E08","Timestamp":1307473},{"Id":102809,"Episode":"S02E06","Timestamp":1156697},{"Id":117775,"Episode":"S02E09","Timestamp":374249},{"Id":135085,"Episode":"S03E02","Timestamp":27236},{"Id":37824,"Episode":"S01E07","Timestamp":486444},{"Id":182687,"Episode":"S03E09","Timestamp":550050},{"Id":85681,"Episode":"S02E04","Timestamp":137137},{"Id":102811,"Episode":"S02E06","Timestamp":1157114},{"Id":47584,"Episode":"S01E08","Timestamp":1307890},{"Id":181348,"Episode":"S03E09","Timestamp":267058},{"Id":37821,"Episode":"S01E07","Timestamp":486027},{"Id":92639,"Episode":"S02E05","Timestamp":334417},{"Id":102037,"Episode":"S02E06","Timestamp":992783},{"Id":37811,"Episode":"S01E07","Timestamp":483942},{"Id":37818,"Episode":"S01E07","Timestamp":485402},{"Id":166024,"Episode":"S03E06","Timestamp":1053886},{"Id":177709,"Episode":"S03E08","Timestamp":824699}]'
+    http_version: 
+  recorded_at: Mon, 18 Mar 2019 23:41:19 GMT
+recorded_with: VCR 4.0.0
