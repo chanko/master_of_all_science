@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://masterofallscience.com/api/search?q=Listen,%20Morty
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Mar 2019 23:41:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=da66d98131c468e666c7700e55e95c07f1552952479; expires=Tue, 17-Mar-20
+        23:41:19 GMT; path=/; domain=.masterofallscience.com; HttpOnly; Secure
+      Cache-Control:
+      - no-transform,public,max-age=300,s-maxage=300
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4b9b0e87df3b7790-LAX
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"Id":18773,"Episode":"S01E04","Timestamp":156948},{"Id":119418,"Episode":"S02E09","Timestamp":736486},{"Id":58341,"Episode":"S01E10","Timestamp":981314},{"Id":58335,"Episode":"S01E10","Timestamp":980062},{"Id":58336,"Episode":"S01E10","Timestamp":980271},{"Id":2245,"Episode":"S01E01","Timestamp":486236},{"Id":135035,"Episode":"S03E02","Timestamp":16808},{"Id":119076,"Episode":"S02E09","Timestamp":662036},{"Id":58331,"Episode":"S01E10","Timestamp":979437},{"Id":93694,"Episode":"S02E05","Timestamp":566524},{"Id":119411,"Episode":"S02E09","Timestamp":735026},{"Id":38825,"Episode":"S01E07","Timestamp":701868},{"Id":6784,"Episode":"S01E02","Timestamp":156740},{"Id":1685,"Episode":"S01E01","Timestamp":363613},{"Id":2248,"Episode":"S01E01","Timestamp":486861},{"Id":30256,"Episode":"S01E06","Timestamp":125667},{"Id":119408,"Episode":"S02E09","Timestamp":734400},{"Id":61710,"Episode":"S01E11","Timestamp":372998},{"Id":30252,"Episode":"S01E06","Timestamp":124624},{"Id":61708,"Episode":"S01E11","Timestamp":372789},{"Id":119078,"Episode":"S02E09","Timestamp":662453},{"Id":28362,"Episode":"S01E05","Timestamp":971095},{"Id":135034,"Episode":"S03E02","Timestamp":16600},{"Id":38820,"Episode":"S01E07","Timestamp":700825},{"Id":1688,"Episode":"S01E01","Timestamp":364239},{"Id":1682,"Episode":"S01E01","Timestamp":362988},{"Id":135032,"Episode":"S03E02","Timestamp":16183},{"Id":38822,"Episode":"S01E07","Timestamp":701242},{"Id":119077,"Episode":"S02E09","Timestamp":662245},{"Id":1683,"Episode":"S01E01","Timestamp":363196},{"Id":30251,"Episode":"S01E06","Timestamp":124416},{"Id":119079,"Episode":"S02E09","Timestamp":662662},{"Id":30255,"Episode":"S01E06","Timestamp":125250},{"Id":1687,"Episode":"S01E01","Timestamp":364030},{"Id":61709,"Episode":"S01E11","Timestamp":372581},{"Id":119081,"Episode":"S02E09","Timestamp":663079}]'
+    http_version: 
+  recorded_at: Mon, 18 Mar 2019 23:41:20 GMT
+- request:
+    method: get
+    uri: https://masterofallscience.com/api/caption?e=S01E04&t=156948
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Mar 2019 23:41:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd72192a2c07338737f0aa0ee6643d5ae1552952480; expires=Tue, 17-Mar-20
+        23:41:20 GMT; path=/; domain=.masterofallscience.com; HttpOnly; Secure
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4b9b0e89d9e022a0-LAX
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Episode":{"Id":5,"Key":"S01E04","Season":1,"EpisodeNumber":4,"Title":"M.
+        Night Shaym-Aliens!","Director":"Jeff Myers","Writer":"Tom Kauffman","OriginalAirDate":"13-Jan-14","WikiLink":""},"Frame":{"Id":18773,"Episode":"S01E04","Timestamp":156948},"Subtitles":[{"Id":1967,"RepresentativeTimestamp":154654,"Episode":"S01E04","StartTimestamp":154238,"EndTimestamp":155321,"Content":"Ugh!
+        Take a shower with me, Morty.","Language":"en"},{"Id":1968,"RepresentativeTimestamp":155697,"Episode":"S01E04","StartTimestamp":155405,"EndTimestamp":156239,"Content":"What?!","Language":"en"},{"Id":1969,"RepresentativeTimestamp":156740,"Episode":"S01E04","StartTimestamp":156323,"EndTimestamp":157532,"Content":"Listen
+        to me, Morty.","Language":"en"},{"Id":1970,"RepresentativeTimestamp":158408,"Episode":"S01E04","StartTimestamp":157616,"EndTimestamp":159408,"Content":"Get
+        your clothes off and get in the shower right now.","Language":"en"}],"Nearby":[{"Id":18769,"Episode":"S01E04","Timestamp":156323},{"Id":18770,"Episode":"S01E04","Timestamp":156531},{"Id":18771,"Episode":"S01E04","Timestamp":156740},{"Id":18773,"Episode":"S01E04","Timestamp":156948},{"Id":18772,"Episode":"S01E04","Timestamp":157157},{"Id":18774,"Episode":"S01E04","Timestamp":157366},{"Id":18775,"Episode":"S01E04","Timestamp":157574}]}'
+    http_version: 
+  recorded_at: Mon, 18 Mar 2019 23:41:20 GMT
+recorded_with: VCR 4.0.0
