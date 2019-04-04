@@ -7,7 +7,7 @@ A ruby wrapper to interact with MasterOfAllScience.com API based on Ben Lewis's 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'master_of_all_science', '~> 0.0.1'
+gem 'master_of_all_science', '~> 0.0.2'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install master_of_all_science -v 0.0.1
+    $ gem install master_of_all_science -v 0.0.2
 
 ## Usage
 
